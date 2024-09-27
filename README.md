@@ -2,6 +2,14 @@
 
 This is a basic example template for [Projor](https://projor.io) to showcase how to start generating code with it. It contains some example entities in `.entities` file, a simple schema in `/schema` folder, a basic type description in `/data` and a couple example template files in `/template` folder.
 
+If you want to see more elaborate examples, check out these great projects already available:
+
+- [Basic CRUD app in Go](https://docs.projor.io/full-examples/go.html)
+- [Perfect Microservices](https://github.com/SIOCODE-Open/perfect-micro-services)
+- [Typed Component Libraries](https://github.com/SIOCODE-Open/typed-component-libraries)
+- [Spring Boot API in 3 minutes](https://medium.com/@botond.kovacs_52320/create-a-spring-boot-api-in-3-minutes-29531563d5dd)
+- [Issue Tracker API in 5 minutes](https://medium.com/@botond.kovacs_52320/issue-tracker-api-in-5-minutes-a78ac76fec4f)
+
 ## Install Projor
 
 - download an installer for [Projor](https://projor.io) from here : [https://download.projor.io](https://download.projor.io/).
@@ -9,7 +17,7 @@ This is a basic example template for [Projor](https://projor.io) to showcase how
 
 ## Generate your first project
 
-Navigate to your projects root folder in a command prompt / terminal and run:
+Navigate to your project's folder in a command prompt / terminal and run:
 
 `projor generate`
 
@@ -51,7 +59,7 @@ You can create more data collections by creating `.pdata.yaml` files in `/data` 
 
 And the fun part starts here!
 
-## Try to generate some real code!
+## Try to generate some real code
 
 If you want to generate `.html` files for example, all you need to do is the following:
 
