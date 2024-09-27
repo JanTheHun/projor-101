@@ -4,13 +4,14 @@ This is a basic example template for [Projor](https://projor.io) to showcase how
 
 ## Install Projor
 
-You can download an installer for [Projor](https://projor.io) from here : [https://download.projor.io](https://download.projor.io/)
+- download an installer for [Projor](https://projor.io) from here : [https://download.projor.io](https://download.projor.io/).
+- make sure it is in your `PATH`, so that you can run it from command line.
 
 ## Generate your first project
 
 Navigate to your projects root folder in a command prompt / terminal and run:
 
-` projor generate`
+`projor generate`
 
 ## Observe generated files
 
