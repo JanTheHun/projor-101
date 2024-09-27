@@ -88,7 +88,8 @@ If you want to generate `.html` files for example, all you need to do is the fol
 </body>
 </html>
 ```
-  Save it and run `projor generate` again. You should see a new file in `/src` folder named `example.html`. That's the file you just generated, let's see what it does! Load it in a browser - or even better: if you use VS Code, start it up with Live Server and navigate to `http://127.0.0.1:5500/src/example.html` - and you should see this:
+- save it and run `projor generate` again. You should see a new file in `/src` folder named `example.html`. That's the file you just generated, let's see what it does!
+- Load it in a browser - or even better: if you use VS Code, start it up with Live Server and navigate to `http://127.0.0.1:5500/src/example.html` - and you should see this:
 
 ![alt text](screenshot.png)
 
