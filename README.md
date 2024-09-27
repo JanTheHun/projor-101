@@ -73,20 +73,20 @@ If you want to generate `.html` files for example, all you need to do is the fol
 ---
 <html>
     <body>
-    List of entities:
-    <ul>
-    {{#each entities}}
-    <li>{{name}}</li>
-    {{/each}}
-    </ul>
+        List of entities:
+        <ul>
+        {{#each entities}}
+            <li>{{name}}</li>
+        {{/each}}
+        </ul>
 
-    List of basic types:
-    <ul>
-    {{#each basic}}
-    <li>{{name}}</li>
-    {{/each}}
-    </ul>
-</body>
+        List of basic types:
+        <ul>
+        {{#each basic}}
+            <li>{{name}}</li>
+        {{/each}}
+        </ul>
+    </body>
 </html>
 ```
 - save it and run `projor generate` again. You should see a new file in `/src` folder named `example.html`. That's the file you just generated, let's see what it does!
