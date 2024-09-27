@@ -1,0 +1,36 @@
+{
+    "forEach": "entities",
+    "filename": "example/{{kebabCase name}}.entity.text"
+}
+---
+entity: {{name}}
+entity camelCase: {{camelCase name}}
+entity pascalCase: {{pascalCase name}}
+entity kebabCase: {{kebabCase name}}
+
+description: {{description}}
+
+Attributes:{{^attributes}} This entity has no Attributes{{/attributes}}
+
+{{#each attributes}}
+- attribute: 
+    - name: {{name}}
+    - description: {{description}}
+
+    - parent Entity name: {{../name}}
+    - parent Entity description: {{../description}}
+
+    - attribute type / TypeScript: {{type.tsType}}
+    - attribute type / Java: {{type.java}}
+
+{{/each}}
+
+Associations:{{^associations}} This entity has no Associations{{/associations}}
+
+{{#each associations}}
+- association:
+    - name: {{name}}
+    - description: {{description}}
+    - references: {{type.name}}
+
+{{/each}}

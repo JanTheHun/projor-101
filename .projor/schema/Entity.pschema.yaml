@@ -1,0 +1,14 @@
+id: Entity
+name: Entity
+description: A persistent entity
+fields:
+  - name: attributes
+    description: The attributes of the entity
+    type: attachment
+    references: Attribute
+    multiple: true
+  - name: associations
+    description: The associations of the entity
+    type: attachment
+    references: Association
+    multiple: true

@@ -1,0 +1,31 @@
+// A user account in the system
+entity UserAccount {
+    // The login name of the user
+    String loginname
+    // The email address of the user
+    String email
+    // The issues reported by the user
+    @Join Issue reportedIssues[]
+}
+// An issue reported in the system
+entity Issue {
+    // The title of the issue
+    String title
+    // A detailed description of the issue
+    String description[]
+    // The status of the issue (e.g., Open, In Progress, Closed)
+    String status
+    // The user who reported the issue
+    @Join UserAccount reporter
+    // The user assigned to the issue
+    @Join UserAccount assignee
+}
+// A comment on an issue
+entity Comment {
+    // The content of the comment
+    String content
+    // The issue the comment belongs to
+    @Join Issue issue
+    // The user who made the comment
+    @Join UserAccount author
+}

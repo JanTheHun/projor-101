@@ -1,0 +1,16 @@
+id: BasicType
+name: Basic Type
+description: A basic type, such as String
+fields:
+  - name: java
+    description: The Java type of the basic type
+    type: string
+    required: true
+  - name: jsonExample
+    description: An example of the basic type in JSON
+    type: string
+    required: true
+  - name: jsDocType
+    description: The JSDoc type of the basic type
+    type: string
+    required: true
