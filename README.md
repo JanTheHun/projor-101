@@ -66,8 +66,9 @@ If you want to generate `.html` files for example, all you need to do is the fol
 - create a template file in `/template` folder, let's name it `example.html.ptemplate.mustache` and type / copy-paste the following:
 ```
 {
-"map": { "basic": "basic", "entities": "entities" },
-"filename": "src/example.html"
+    "map": { "basic": "basic", "entities": "entities" },
+    "filename": "src/example.html",
+    "useFormat": "html"
 }
 ---
 <html>
